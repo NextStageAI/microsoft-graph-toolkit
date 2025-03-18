@@ -1,5 +1,5 @@
 {
-  "name": "@microsoft/mgt-components",
+  "name": "@nextweb/microsoft-mgt-components",
   "version": "4.4.0",
   "description": "The Microsoft Graph Toolkit Components",
   "keywords": [
@@ -47,6 +47,8 @@
     "office-ui-fabric-core": "^11.1.0"
   },
   "publishConfig": {
+    "access": "restricted",
+    "registry": "https://us-central1-npm.pkg.dev/next-platform-infra/nextweb-private/",
     "directory": "dist"
   }
 }
