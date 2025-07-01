@@ -5069,20 +5069,21 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@microsoft/mgt-components@npm:*, @microsoft/mgt-components@workspace:packages/mgt-components":
-  version: 0.0.0-use.local
-  resolution: "@microsoft/mgt-components@workspace:packages/mgt-components"
+"@microsoft/mgt-components@npm:*":
+  version: 4.6.0
+  resolution: "@microsoft/mgt-components@npm:4.6.0"
   dependencies:
     "@fluentui/web-components": "npm:^2.6.1"
     "@lit/task": "npm:^1.0.0"
-    "@microsoft/mgt-element": "npm:*"
-    "@microsoft/microsoft-graph-client": "npm:3.0.7"
+    "@microsoft/mgt-element": "npm:4.6.0"
+    "@microsoft/microsoft-graph-client": "npm:3.0.2"
     "@microsoft/microsoft-graph-types": "npm:^2.40.0"
     "@microsoft/microsoft-graph-types-beta": "npm:^0.43.0-preview"
     lit: "npm:^3.1.2"
     office-ui-fabric-core: "npm:^11.1.0"
-  languageName: unknown
-  linkType: soft
+  checksum: 10/0322c95af1ffd9ad40f3e6da8c18c7ec9ca5ff4f46bce6ce0a6b07da015892da5567b84060be3cd0da554b40f32e0f9f5d784666cd9a0562cfbd40cfa794672c
+  languageName: node
+  linkType: hard
 
 "@microsoft/mgt-electron-provider@workspace:packages/providers/mgt-electron-provider":
   version: 0.0.0-use.local
@@ -5107,6 +5108,18 @@ __metadata:
     lit: "npm:^3.1.2"
   languageName: unknown
   linkType: soft
+
+"@microsoft/mgt-element@npm:4.6.0":
+  version: 4.6.0
+  resolution: "@microsoft/mgt-element@npm:4.6.0"
+  dependencies:
+    "@lit/task": "npm:^1.0.0"
+    "@microsoft/microsoft-graph-client": "npm:3.0.2"
+    idb: "npm:8.0.0"
+    lit: "npm:^3.1.2"
+  checksum: 10/7e8d5834361036ba88f8c653f110b1b204720cd420ffc799d31c2b3849921f99f3de1b141d6b52dfcf4d0c108a474888138af4d3e1e0a4526d91ef5c9ee0825c
+  languageName: node
+  linkType: hard
 
 "@microsoft/mgt-mock-provider@npm:*, @microsoft/mgt-mock-provider@workspace:packages/providers/mgt-mock-provider":
   version: 0.0.0-use.local
@@ -5191,6 +5204,25 @@ __metadata:
   languageName: unknown
   linkType: soft
 
+"@microsoft/microsoft-graph-client@npm:3.0.2":
+  version: 3.0.2
+  resolution: "@microsoft/microsoft-graph-client@npm:3.0.2"
+  dependencies:
+    "@babel/runtime": "npm:^7.12.5"
+    tslib: "npm:^2.2.0"
+  peerDependenciesMeta:
+    "@azure/identity":
+      optional: true
+    "@azure/msal-browser":
+      optional: true
+    buffer:
+      optional: true
+    stream-browserify:
+      optional: true
+  checksum: 10/65e2389af7bcae2c8068249a5f935fd8a697d26c5a633be2413bb1946245f75282cc9d4ef372ba7b38a82770dadf20cdc31d9ba50c7d5688ab29ce97958681a3
+  languageName: node
+  linkType: hard
+
 "@microsoft/microsoft-graph-client@npm:3.0.7":
   version: 3.0.7
   resolution: "@microsoft/microsoft-graph-client@npm:3.0.7"
@@ -5234,6 +5266,21 @@ __metadata:
   checksum: 10/39697cef2b92f6e08e3590467cc6da88cd6757b2a27cb9208879c2316ed71d6be4608892ee0a86eb0343140da1a5df498f93a32c2aaf8f1fbd90f883f08b5f63
   languageName: node
   linkType: hard
+
+"@nextweb/microsoft-mgt-components@workspace:packages/mgt-components":
+  version: 0.0.0-use.local
+  resolution: "@nextweb/microsoft-mgt-components@workspace:packages/mgt-components"
+  dependencies:
+    "@fluentui/web-components": "npm:^2.6.1"
+    "@lit/task": "npm:^1.0.0"
+    "@microsoft/mgt-element": "npm:*"
+    "@microsoft/microsoft-graph-client": "npm:3.0.7"
+    "@microsoft/microsoft-graph-types": "npm:^2.40.0"
+    "@microsoft/microsoft-graph-types-beta": "npm:^0.43.0-preview"
+    lit: "npm:^3.1.2"
+    office-ui-fabric-core: "npm:^11.1.0"
+  languageName: unknown
+  linkType: soft
 
 "@nicolo-ribaudo/eslint-scope-5-internals@npm:5.1.1-v1":
   version: 5.1.1-v1
@@ -12372,15 +12419,15 @@ __metadata:
   linkType: hard
 
 "electron@npm:^28.2.4":
-  version: 28.2.4
-  resolution: "electron@npm:28.2.4"
+  version: 28.3.3
+  resolution: "electron@npm:28.3.3"
   dependencies:
     "@electron/get": "npm:^2.0.0"
     "@types/node": "npm:^18.11.18"
     extract-zip: "npm:^2.0.1"
   bin:
     electron: cli.js
-  checksum: 10/6179c1359a756c7ab13bbac1518f7c1a8a7670cdb53abcf3a9bb4b09fa6f398605543141659ad32bce86649fc21ddf920d72fc2f346b8e3cfd83010414ac2ca0
+  checksum: 10/982bb145879722f547ac5619f7b113739e6baea5b4bd09ae8a066995ee080f9e13d5b104e76e01f8b00f8577837dd2411921c9dc4d6e0a6abfc0a7e65ee45f2a
   languageName: node
   linkType: hard
 
